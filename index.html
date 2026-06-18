@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Expense Tracker Pro</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<div class="app">
+
+  <div class="top-bar">
+    <h1>💰 Expense Tracker</h1>
+    <button onclick="toggleMode()" id="modeBtn">🌙</button>
+  </div>
+
+  <div class="card">
+    <input type="number" id="amount" placeholder="Amount">
+
+    <select id="category">
+      <option value="Food">Food</option>
+      <option value="Travel">Travel</option>
+      <option value="Shopping">Shopping</option>
+      <option value="Other">Other</option>
+    </select>
+
+    <button onclick="addExpense()">Add</button>
+  </div>
+
+  <h2 id="total">Total: ₹0</h2>
+
+  <canvas id="myChart"></canvas>
+
+  <ul id="list"></ul>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
