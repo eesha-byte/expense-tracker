@@ -1,21 +1,43 @@
 # 💰 Expense Tracker App
 
-## 🚀 About Project
-This is a simple Expense Tracker web application built using HTML, CSS, and JavaScript.
+A simple and interactive Expense Tracker web application built using **HTML, CSS, and JavaScript**.
 
-## ✨ Features
-- Add expenses
-- Delete expenses
-- View total amount
-- Simple UI design
+---
+
+## 🚀 Live Features
+
+- 💰 Add Income
+- 💸 Add Expenses
+- 🏷️ Category selection (Food, Travel, Shopping, Salary, Other)
+- 📊 Income vs Expense chart (live updates)
+- 🗑️ Delete transactions
+- 🔄 Real-time total update
+
+---
 
 ## 🛠️ Tech Stack
+
 - HTML
 - CSS
 - JavaScript
+- Chart.js (for graphs)
 
-## 📸 Preview
-(Add screenshot later)
+---
 
-## 🎯 Purpose
-This project is built for learning frontend development and improving JavaScript skills.
+## 📸 Project Preview
+
+(Add screenshot of your app here later)
+
+---
+
+## 🎯 Project Goal
+
+This project was built to practice frontend development and JavaScript logic handling including:
+- DOM manipulation
+- Event handling
+- Data visualization
+- UI design
+
+---
+
+## 📂 Project Structure
